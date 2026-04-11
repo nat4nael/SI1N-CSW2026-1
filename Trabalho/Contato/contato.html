@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+nav {text-align: center;}
+h1 {text-align: center; color: #3e46b4;}
+</style>
+</head>
+
+
+
+
+<body>
+
+    
+<nav>
+<a href="../Home/index.html">Home</a> |
+<a href="../Curriculo/curriculo.html">Currículo</a> |
+<a href="../GitHub/github.html">GitHub</a> |
+<a href="../Serviços/servico.html">Serviços</a> |
+<a href="../Contato/contato.html">Contato</a>
+</nav>
+
+
+    <h1>Fale comigo</h1>
+
+    <form action="confirmacao.html">
+        
+        <div class="campo">
+        <label>Nome Completo:</label>
+        <br>
+        <input type="text" name="nome" required>
+        </div>
+        <BR>
+
+        <div class="campo">
+        <label>E-mail:</label>
+        <br>
+        <input type="email" name="email" required>
+        </div>
+
+        <br>
+
+        <div class="campo">
+            <label>Tipo de Cliente:</label>
+            <BR>
+            <input type="radio" name="tipo" value="PF"> Pessoa Física  
+            <BR>
+            <input type="radio" name="tipo" value="PJ"> Pessoa Jurídica
+
+        </div>
+
+
+        <br>
+        <div class="campo">
+            <label>Melhor horário:</label>
+            <select name="horario">
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </div>
+        <BR>
+        <div class="campo">
+            <label>Serviço desejado:</label>
+            <br>
+            <input type="checkbox" name="s1"> Criação ou manutenção em aplicações software estáticos
+            <br>
+            <input type="checkbox" name="s2"> Criação ou manutenção em aplicações software dinâmicos
+            <br>
+            <input type="checkbox" name="s3"> Criação de Páginas Super Avançada
+
+        <BR>
+        <br>
+        <div class="campo">
+            <label>Descrição:</label>
+            <br>
+            <textarea name="desc" rows="3" placeholder="De uma Pequena descrição"></textarea>
+        </div>
+
+
+         <button
+          onclick="alert('Em breve entremos em contato com você!')"> Enviar respostas
+         </button>
+
+        <br>
+
+
+    </form>
+
+
+
+
+</body>
+</html>
