@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+
+<style>
+
+    AQUI ESTAMOS TESTANDO O CSS INTERNO, OU SEJA DENTRO DA HEAD CRIAMOS A TAG STYLE E FAZEMOS AS ALTERACOES SELECIONANDO AS TAGS. 
+    TODAS AS TAGS ESTARA MUDANDO.
+
+    h1 {
+    color: blue;
+    font-size:3em
+    background-color: blue
+    }
+
+    li {
+    color: purple
+    }
+
+    a {font-size: 2em; color: rgb(240, 30, 240)}
+
+</style>
+
+</head>
+<body>
+    
+<a href="./index2.html">IR PARA PÁGINA DE TESTE DO CSS INLINE</a>
+
+<H1> O que atualmente estudo... </H1>
+
+<ol style="text-align: left;">
+<li>
+<strong>Construção de Software para Web:</strong>
+introdução ao desenvolvimento de sites e aplicações web.
+</li>
+
+<li>
+<strong>Design e Desenvolvimento de Banco de Dados I:</strong>
+ criação e organização de bancos de dados.
+</li>
+
+<li>
+<strong>Experiência e Interface com o Usuário (UX/UI):</strong>
+estudo da interação entre usuário e sistemas.
+</li>
+<li>
+
+<strong>Fundamentos de Tecnologia da Computação:</strong>
+ conceitos básicos de hardware, software e sistemas.
+</li>
+
+<li>
+<strong>Lógica para Computação:</strong>
+desenvolvimento do raciocínio lógico para programação.
+</li>
+
+<li>
+<strong>Textos Científicos:</strong>
+escrita acadêmica e produção de trabalhos científicos.
+</li>
+</ol>
+
+
+
+
+
+</body>
+</html>
