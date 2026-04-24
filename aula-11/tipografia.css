@@ -1,0 +1,39 @@
+
+h1
+{
+ color: rgb(37, 37, 250);
+}
+
+
+
+body
+{
+ background-image: linear-gradient(90deg, #0058AB, #0CA7DB, #0058AB);
+}
+
+
+
+
+.box {
+  width: 600px;
+  padding: 50px;
+  background-color: white;
+  border-radius: 150px;
+  position: absolute;
+  top: 10%;
+  left: 20%; 
+  right: 0%;
+  box-shadow: 10px 50px 50px 10px black;
+  margin: auto;
+
+}
+
+
+
+
+p
+{
+font-size: large;
+font-weight: bold;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
