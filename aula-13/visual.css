@@ -1,0 +1,43 @@
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid rgb(15, 15, 87);
+    padding: 1%;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.quadrado {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(15, 15, 87);
+    border: 1px;
+    border-radius: 1px;
+}
+
+
+.quadrado1 {
+    width: 35px;
+    height: 8px;
+    background-color: rgb(15, 15, 87);
+    border: 1px;
+    border-radius: 1px;
+}
+
+.quadrado2 {
+    width: 35px;
+    height: 8px;
+    background-color: rgb(15, 15, 87);
+    border: 1px;
+    border-radius: 1px;
+
+}
+
+.quadrado3 {
+    width: 35px;
+    height: 8px;
+    background-color: rgb(15, 15, 87);
+    border: 1px;
+    border-radius: 1px;
+}
